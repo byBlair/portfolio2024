@@ -1,5 +1,12 @@
-@import url(fontawesome-all.min.css);
-@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('../node_modules/@fortawesome/fontawesome-free/css/all.min.css');
+
+
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 300;
+	src: url('./fonts/SourceSansPro-Light.ttf') format('truetype');
+  }
 
 /*
 	Stellar by HTML5 UP
@@ -100,10 +107,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(""), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(""), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(""), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url(""), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
